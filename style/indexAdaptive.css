@@ -1,0 +1,74 @@
+@media screen and (max-width: 1212px) {
+    .examplesScreenTitle svg {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1010px) {
+    .heaver_navigation {
+        display: none;
+    }
+
+    .mainNavigation {
+        /* flex-direction: column; */
+        bottom: 0;
+        /* height: 100%; */
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .mainScrollDowm {
+        display: none;
+    }
+}
+@media screen and (max-width: 900px) {
+    .footerContent{
+        width: 100%;
+        max-width: 370px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footerContent_collumn {
+        gap: 20px;
+    }
+    .footerForm label:first-child{
+        margin-top: 10px;
+    }
+    #open-file-picker {
+        top: 145px;
+    }
+    .footerCopyRight {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 750px) {
+    .mainButton {
+        display: none;
+    }
+
+    .screenTitle,
+    .screenTitle span {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 626px) {
+ .examplesScreen_widget{
+    display: flex;
+    flex-direction: column;
+ }
+ .examplesWigdet_grid{
+    height: 200px;
+ }
+ .mainNavigation{
+    display: none;
+ }
+}
+@media screen and (max-width: 440px) {
+    .screenTitle,
+    .screenTitle span {
+        font-size: 30px;
+    }
+}
